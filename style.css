@@ -1,0 +1,157 @@
+@import url('https://fonts.googleapis.com/css2?family=Noto+Sans+JP:wght@400;700&display=swap');
+
+:root{
+    --primary-color: #4F46E5;
+    --off-white:#F3F4F6;
+    --grey-color: #4B5563;
+}
+
+body{
+    font-family: 'Noto Sans JP', sans-serif;
+    margin: 0px;
+}
+
+hr{
+    margin: 2rem 0rem;
+}
+
+/*Container*/
+
+.container{
+    padding: 0rem 1rem;
+}
+
+.container-center{
+    max-width: 600px;
+    margin: auto;
+}
+
+.container .link-container{
+    margin-top: 3rem;
+    margin-bottom: 1rem;
+}
+
+.container .link-container-projects{
+    margin:2rem 0rem;
+}
+
+/* links */
+
+.link{
+    text-decoration: none;
+    padding: 0.5rem 1rem;
+}
+
+.link-primary{
+    background-color: var(--primary-color);
+    color: white;
+    border-radius : 0.5rem;
+}
+
+.link-secondary{
+    color: var(--primary-color);
+    border: 1px solid var(--primary-color);
+    border-radius: 0.5rem;
+}
+
+/* lists */
+
+.list-non-bullet{
+    list-style: none;
+}
+
+.list-item-inline{
+    display: inline;
+    padding: 0rem 0.5rem;
+}
+
+/* navigation */
+
+.navigation{
+    background-color: var(--primary-color);
+    padding: 1rem;
+    border-bottom-left-radius: 1rem;
+    color: white;
+}
+
+.navigation .brand-name{
+    font-weight: bold;
+}
+
+.navigation .list-non-bullet{
+    text-align: right;
+}
+
+.navigation .link{
+    color: white;
+}
+
+.navigation .link-active{
+    font-weight: bold;
+}
+
+/* header */
+
+.hero{
+    padding: 2rem 0rem;
+}
+
+.hero .hero-img{
+    max-width: 350px;
+    display: block;
+    margin: auto;
+    margin-top: 2rem;
+}
+
+.hero .hero-heading{
+    text-align: center;
+    padding-top: 1rem;
+    color: var(--grey-color);
+}
+
+/* section */
+
+.section{
+    padding: 2rem;
+}
+
+.section h1{
+    text-align: center;
+}
+
+
+.ow{
+    background-color: var(--off-white);
+    max-width: 600px;
+    margin: auto;
+}
+
+/* footer */
+
+.footer{
+    background-color: var(--primary-color);
+    padding: 2rem 1rem;
+    text-align: center;
+    color: white;
+    border-top-right-radius: 1rem;
+}
+
+.footer .footer-header{
+    font-weight: bold;
+    
+}
+.footer .link{
+    color: white;
+}
+
+.footer ul{
+    padding-inline-start: 0px;
+}
+
+.footer .link:hover{
+    background-color: white;
+    color: var(--primary-color);
+    border-radius: 1rem;
+    /* border: 1px solid white;
+    border-radius: 1rem; */
+}
