@@ -65,6 +65,17 @@ hr{
     padding: 0rem 0.5rem;
 }
 
+.list-blogs{
+    list-style: none;
+    padding-left: 0;
+}
+
+.list-individual-blog{
+    margin-bottom: 3rem;
+}
+
+
+
 /* navigation */
 
 .navigation{
@@ -154,4 +165,12 @@ hr{
     border-radius: 1rem;
     /* border: 1px solid white;
     border-radius: 1rem; */
+}
+
+/* others */
+
+
+.summary-blog{
+    /* used this in summary of blogs in blogs.html page */
+    margin-bottom: 2rem;
 }
